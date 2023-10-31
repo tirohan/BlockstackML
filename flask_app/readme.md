@@ -9,7 +9,6 @@
 Before running the Flask app, make sure you have the following prerequisites installed on your system:
 
 - Python 3.x
-- [Additional Dependencies]: List any additional dependencies or libraries required for your app.
 
 ## Installation
 
