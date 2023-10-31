@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Your App Name** is a web application built with Flask
+**Bank APP** is a web application built with Flask
 
 ## Prerequisites
 
