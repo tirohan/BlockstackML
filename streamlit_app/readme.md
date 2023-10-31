@@ -16,7 +16,8 @@ Before running the Flask app, make sure you have the following prerequisites ins
 1. Create a Virtual Environment (Optional):
 
    ```bash
-   git clone https://github.com/yourusername/your-flask-app.git
+   python -m venv venv
+   source venv/bin/activate
    ```
 2. Install Dependencies
    ```bash
