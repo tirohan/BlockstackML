@@ -6,14 +6,14 @@ This repository contains a comprehensive analysis of a marketing campaign datase
 # Key Insights
 ## Statistical Analysis
 * Subscription and Balance: There's no significant difference in account balance between subscribers and non-subscribers, implying that subscription decisions are influenced by other factors.
-*Work and Subscription: Occupation is associated with subscription choices, indicating that the type of job can impact a customer's decision.
-*Marital Status and Subscription: A strong correlation exists between marital status and subscription, suggesting that marital status is a crucial factor.
-*Education and Subscription: Education level is linked to subscription decisions, making it a significant predictor.
-*Default and Subscription: The presence of a credit default does not significantly affect subscription decisions.
-*Loans: Both personal and housing loans affect subscription decisions, indicating their importance.
-*Contact Method and Subscription: The choice of contact method is influenced by subscription status, highlighting the role of communication style.
-*Month and Poutcome: Subscription decisions correlate with the campaign month and prior campaign results.
-*Balance by Education Levels: While balance doesn't vary significantly by marital status, it does exhibit variation across different education levels, with higher education linked to higher account balances.
+* Work and Subscription: Occupation is associated with subscription choices, indicating that the type of job can impact a customer's decision.
+* Marital Status and Subscription: A strong correlation exists between marital status and subscription, suggesting that marital status is a crucial factor.
+* Education and Subscription: Education level is linked to subscription decisions, making it a significant predictor.
+* Default and Subscription: The presence of a credit default does not significantly affect subscription decisions.
+* Loans: Both personal and housing loans affect subscription decisions, indicating their importance.
+* Contact Method and Subscription: The choice of contact method is influenced by subscription status, highlighting the role of communication style.
+* Month and Poutcome: Subscription decisions correlate with the campaign month and prior campaign results.
+* Balance by Education Levels: While balance doesn't vary significantly by marital status, it does exhibit variation across different education levels, with higher education linked to higher account balances.
 
 ## Exploratory Data Analysis
 * Age Distribution: Most clients are between 30 and 60 years old, reflecting the campaign's targeting demographic.
@@ -71,5 +71,6 @@ Accuracy: 0.87
 Precision ('yes'): 0.38
 Recall ('yes'): 0.41
 F1-Score ('yes'): 0.40
-In summary, the Decision Tree model with hyperparameter tuning outperforms other models, especially regarding precision, recall, and F1-Score for the 'yes' class. However, the model choice should consider factors like processing capacity, ease of maintenance, and business-specific needs.
+
+## In summary, the Decision Tree model with hyperparameter tuning outperforms other models, especially regarding precision, recall, and F1-Score for the 'yes' class. However, the model choice should consider factors like processing capacity, ease of maintenance, and business-specific needs.
   
